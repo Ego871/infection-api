@@ -59,14 +59,14 @@ export function generateInfectionEmailTemplate(lat: number, lng: number, gender:
     <body>
         <div class="container">
             <div class="header">
-                <h1>Detalles del Incidente</h1>
+                <h1>Detalles del caso de infección de la Viruela del Mono</h1>
             </div>
             <div class="content">
-                <p><strong>Latitude:</strong> ${lat}</p>
-                <p><strong>Longitude:</strong> ${lng}</p>
-                <p><strong>Gender:</strong> ${gender}</p>
-                <p><strong>Age:</strong> ${age}</p>
-                <p><strong>Creation Date:</strong> ${creationDate}</p>
+                <p><strong>Latitud:</strong> ${lat}</p>
+                <p><strong>Longitud:</strong> ${lng}</p>
+                <p><strong>Género:</strong> ${gender}</p>
+                <p><strong>Edad:</strong> ${age}</p>
+                <p><strong>Fecha de Registro:</strong> ${creationDate}</p>
                 <img src="${mapboxURL}" class="map-img"/>
             </div>
             <div class="footer">
